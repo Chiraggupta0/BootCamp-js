@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1>Welcome</h1>
+
+    <!-- <button onclick="handleclick()">Change</button> -->
+     <button>Change</button>
+              
+    <script>
+        // example of dom
+
+        // function handleclick() {
+        // const heading = document.querySelector("h1");
+        // heading.textContent = "Hello World";
+        // heading.style.backgroundColor = "tomato";
+        // }
+
+
+        // better approach to handle click event
+        const heading = document.querySelector("h1");
+        const button = document.querySelector("button");
+        button.addEventListener("click", function() {
+            heading.textContent = "Hello World";
+            heading.style.backgroundColor = "tomato";
+        })
+    </script>
+</body>
+</html>
