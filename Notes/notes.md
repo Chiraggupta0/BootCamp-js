@@ -196,3 +196,17 @@ we DO NOT USE LOOPING
 we use .map and .foreach
 
 arrow function does have return 
+
+
+Day 5------------------------------------------------------------------------------
+Local storage -- permanent storage till we manually delete it
+session storage -- till the time our tab is open we have 
+session storage the time we close the tab we lost session storage
+cookies-- can have reset time and also used to store essestial information
+cookies 3 types--
+1- session cookies
+2- persistent cookies-- short duration data(7 days , 10 days)
+3- Third party cookies -- collects data 
+
+
+
