@@ -209,4 +209,11 @@ cookies 3 types--
 3- Third party cookies -- collects data 
 
 
+single(react) and multipage application(js)
+in js page when changes reloads takes time when heavy component 
 
+rafce shortcut key to generate jsx code
+<></> react fragment -- when we have multiple line of code inside return in jsx file
+
+babel compiler of jsx
+component is indepenndent and is reusable code
