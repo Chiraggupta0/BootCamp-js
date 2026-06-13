@@ -1,4 +1,4 @@
-client server aarchitecture ---  client and server side loading
+client server aarchitecture --- client and server side loading
 3 tier architecture , multi-tier architecture
 tcp/ip
 osi
@@ -6,8 +6,6 @@ sdlc
 html css grid and js
 -- js -----
 js Hoisting , TDZ , js array and string methods , synchronous and asynchronous function ,
-
-
 
 class 2 ---
 
@@ -17,7 +15,6 @@ grid and flex
 3 -- column - width
 in style 1fr is i fraction we do not use pixel as it might not cover the whole screen so we use fraction value ie 1fr 1fr 1fr 1fr ie windoe into 4 section equal width
 
-
 for mobile view responsive prompt --
 1- make the existing web page proper responsive
 2- add a hamburger menu
@@ -26,15 +23,12 @@ for mobile view responsive prompt --
 5-- for better responsiveness make the webpage responsive for all the mobile and tablet view
 crosser(backend) lovaable dpaste
 
-
-
 jsx
 
 jsx uses bot compiler and interpreter line by line executes code(synchronous function)
 
 in var we can redeclare and reassign the value
 in let we can not redeclare but can reassign the value
-
 
 eg--
 a=10;
@@ -57,15 +51,14 @@ TDZ --
 // normal function
 
 function demo(a,b){
-    console.log(a+b)
+console.log(a+b)
 }
 demo(5,10)
-
 
 // arrow function
 
 const demo=(a,b)=>{
-    console.log(a+b)
+console.log(a+b)
 }
 demo(5,10)
 
@@ -76,32 +69,26 @@ if a pass a function inside another function as an argument it is called callbac
 
 // callback function
 function sample(callback){
-    console.log("sample")
-    callback()
+console.log("sample")
+callback()
 }
 function demo(){
-    console.log("demo1")
+console.log("demo1")
 }
 sample(demo)
-
-
-
 
 accessibility of outer fuction inside inner function
 closure is made by lexical scope
 lexical scope is the surrounding state
 closure is a combination of lexical scope and function
 
- 1. let , const and var
-    2. hoisting and TDZ
-    3. types of functions.
-       regular function
-       arrow function
-       callback function
-       first order function
-       higher order function
-       self invoking function
-
+1.  let , const and var 2. hoisting and TDZ 3. types of functions.
+    regular function
+    arrow function
+    callback function
+    first order function
+    higher order function
+    self invoking function
 
 day 3 -----------------------------------------------------------------------------------------------------------------------------
 parameter and argument
@@ -117,17 +104,16 @@ js first execute synchronous code it will always execute synchronous code first 
 
 code --
 setTimeout(()=>{
-    console.log("hello")
+console.log("hello")
 },1000)
 // also example of callback function -- settimeout
 
 console.log("1")
 function demo(){
-    console.log("2")
+console.log("2")
 }
 demo()
 console.log("3")
-
 
 callbackhell
 
@@ -139,30 +125,27 @@ read readability is not good
 
 eg--
 setTimeout(()=>{
-    console.log("1")
-    setTimeout(()=>{
-    console.log("1")
-    setTimeout(()=>{
-    console.log("1")
+console.log("1")
+setTimeout(()=>{
+console.log("1")
+setTimeout(()=>{
+console.log("1")
 },1000)
 },1000)
 },1000)
-
-
 
 so promises came to solve this problem
 promise is a object constructor
 
-
 code--
 let pro =new Promise((res,rej)=>{
-    var quiz = "top"
-    if(quiz=="top"){
-        res()
-    }
-    else{
-        rej()
-    }
+var quiz = "top"
+if(quiz=="top"){
+res()
+}
+else{
+rej()
+}
 })
 pro.then(()=>console.log("yes"))
 .catch(()=>console.log("no"))
@@ -180,10 +163,11 @@ all the asynchronous reside in webapi then microtask
 microtask only have promises and will be executed first and macrotask has settimeout etc which will execute after microtask
 callstack will have synchronous function and event loop will continuously check the stack to empty
 
+![alt text](image.png)
 
 Day-4-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-async and await 
+async and await
 1- async function always returns a promise
 2- after await, always use a promise
 3- Async and Await manages promise in a better way
@@ -192,25 +176,23 @@ json
 
 json is array of objects
 we use 2 methods for api fetching
-we DO NOT USE LOOPING 
+we DO NOT USE LOOPING
 we use .map and .foreach
 
-arrow function does have return 
-
+arrow function does have return
 
 Day 5------------------------------------------------------------------------------
 Local storage -- permanent storage till we manually delete it
-session storage -- till the time our tab is open we have 
+session storage -- till the time our tab is open we have
 session storage the time we close the tab we lost session storage
 cookies-- can have reset time and also used to store essestial information
 cookies 3 types--
 1- session cookies
 2- persistent cookies-- short duration data(7 days , 10 days)
-3- Third party cookies -- collects data 
-
+3- Third party cookies -- collects data
 
 single(react) and multipage application(js)
-in js page when changes reloads takes time when heavy component 
+in js page when changes reloads takes time when heavy component
 
 rafce shortcut key to generate jsx code
 <></> react fragment -- when we have multiple line of code inside return in jsx file
