@@ -199,3 +199,46 @@ rafce shortcut key to generate jsx code
 
 babel compiler of jsx
 component is indepenndent and is reusable code
+
+Virtual DOm in notebook
+
+
+Day-6------------------------------------------------------------------------------------------------------------------------
+
+REACT FEATURE
+1- Virtual DOM - imp
+2- Single Page Application(SPA) - imp
+3- JSX and Babel - imp
+4- One Way Data Binding
+5- Component Based
+
+
+React lifecycle
+Mounting,Updating,Unmounting
+
+component-- Class component(React lifecycle) and functional component
+functional component - Hooks
+Hooks--
+-- Hooks are functtions
+-- There is 2 rules to use hooks
+-- 1- only call hooks from top level (top of the component)
+-- 2- Only call hooks from react functions
+
+state
+we can not rerender from normal variable so we use state
+
+where to use ternary operator
+show/hide
+dark/light theme
+toggle
+
+useState example(2-3)
+
+Html name attribute -- place in url used for data (jab hame backend me usl bhejna hota hai toh usme url main values chiye hoti hai uss ke like name ke use karte hai woh values ko url main load kar deta hai)
+ 
+name and value attribute in html
+onchange is used in input tag maximum time
+
+multiple form handling
+
+useEffect

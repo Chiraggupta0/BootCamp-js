@@ -1,5 +1,6 @@
 import React from 'react'
 import Home from './Home'
+import New from './New'
 
 const App = () => {
   return (
@@ -7,6 +8,8 @@ const App = () => {
     <div>App</div>
     <h1>chirag</h1>
     <Home/>
+    <App/>
+    <New/>
     </div>
   )
 }
