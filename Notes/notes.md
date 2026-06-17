@@ -202,7 +202,6 @@ component is indepenndent and is reusable code
 
 Virtual DOm in notebook
 
-
 Day-6------------------------------------------------------------------------------------------------------------------------
 
 REACT FEATURE
@@ -211,7 +210,6 @@ REACT FEATURE
 3- JSX and Babel - imp
 4- One Way Data Binding
 5- Component Based
-
 
 React lifecycle
 Mounting,Updating,Unmounting
@@ -235,10 +233,43 @@ toggle
 useState example(2-3)
 
 Html name attribute -- place in url used for data (jab hame backend me usl bhejna hota hai toh usme url main values chiye hoti hai uss ke like name ke use karte hai woh values ko url main load kar deta hai)
- 
+
 name and value attribute in html
 onchange is used in input tag maximum time
 
 multiple form handling
 
 useEffect
+
+day-9------------------------------------------------------------------------------------------------------------------------------
+useEffect -- api fetch , data retrieve,-- manages sideeffect
+side effect is aany operation that affects somehthing outside of the scope of the function
+
+useEffect affects 2 argument -- calllback and dependency
+
+useEffect(()=>{
+// side effect
+return ()=>{
+// clean-up/unmounting function
+}
+},[]) //dependency array
+
+    if []//dependency array is empty then useEffect will run 1 times
+
+create 2 counter button when you clcik onn the first counter button the pop up will appear every time and when you click on the second counter button pop up should not appear
+
+differnece between settimeout and setinterval(baar baar update hoga jitna deay diya hai)
+
+any parameter in a state will trigger previous state
+
+rerendering issue
+
+how can we replace lifecyle with functional components -- by hooks
+
+routing--
+
+browser router
+routes 
+route
+link
+navlink
