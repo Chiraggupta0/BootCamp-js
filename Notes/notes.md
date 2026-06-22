@@ -204,12 +204,16 @@ Virtual DOm in notebook
 
 Day-6------------------------------------------------------------------------------------------------------------------------
 
+why use react instead of jsx and html--
+
 REACT FEATURE
-1- Virtual DOM - imp
+----- vimp ------1- Virtual DOM - imp
 2- Single Page Application(SPA) - imp
 3- JSX and Babel - imp
 4- One Way Data Binding
 5- Component Based
+
+Virtual Dom -- In copy ---
 
 React lifecycle
 Mounting,Updating,Unmounting
@@ -230,7 +234,7 @@ show/hide
 dark/light theme
 toggle
 
-useState example(2-3)
+useState example(2-3) -- manages state
 
 Html name attribute -- place in url used for data (jab hame backend me usl bhejna hota hai toh usme url main values chiye hoti hai uss ke like name ke use karte hai woh values ko url main load kar deta hai)
 
@@ -269,7 +273,32 @@ how can we replace lifecyle with functional components -- by hooks
 routing--
 
 browser router
-routes 
+routes
 route
 link
 navlink
+
+day-10------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+props and props drilling- passing data to a single file
+
+Difference between (arrays)map and for each(looping)
+difference b/w map , filter and reduce
+difference between find and filter
+difference between some and every
+difference b/w push , pop , shift and unshift
+
+context api-- passing data across the component
+
+- createContext
+- provider
+  usecontext hooks - to pass data
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Node and Express
+
+
+npm- node package manager
